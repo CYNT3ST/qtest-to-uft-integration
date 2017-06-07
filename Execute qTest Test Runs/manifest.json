@@ -1,0 +1,21 @@
+{
+  // Manifest for the Execute qTest Test Runs Chrome Extension.
+  "manifest_version": 2,
+
+  "name": "Execute qTest Test Runs",
+  "description": "Executes Automated Test Scripts in UFT",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/execute_automation_128.png"
+  },
+  "author": "Aaron M. Mann",
+  "background": {
+	"scripts": ["background.js"],
+	"persistent": false
+  },
+  "icons": { "16": "images/execute_automation_16.png",
+           "48": "images/execute_automation_48.png",
+          "128": "images/execute_automation_128.png" },
+  "permissions": ["tabs", "contextMenus", "<all_urls>", "storage"]
+}

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation Foreman", "Automation Foreman\Automation Foreman.csproj", "{45535C6A-C451-4893-8081-970C9B322AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation Worker", "Automation Worker\Automation Worker.csproj", "{09548C31-4CFC-4921-B4A7-1DDAE99C4AC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chrome Extension", "Chrome Extension", "{CBE92256-E39B-47A9-B845-C3610CCE6171}"
+	ProjectSection(SolutionItems) = preProject
+		Execute qTest Test Runs\background.js = Execute qTest Test Runs\background.js
+		Execute qTest Test Runs\manifest.json = Execute qTest Test Runs\manifest.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{80EE1E35-97D5-4B3D-BCDD-2B2264F7FDBA}"
+	ProjectSection(SolutionItems) = preProject
+		Execute qTest Test Runs\images\execute_automation.ico = Execute qTest Test Runs\images\execute_automation.ico
+		Execute qTest Test Runs\images\execute_automation_128.png = Execute qTest Test Runs\images\execute_automation_128.png
+		Execute qTest Test Runs\images\execute_automation_16.png = Execute qTest Test Runs\images\execute_automation_16.png
+		Execute qTest Test Runs\images\execute_automation_32.png = Execute qTest Test Runs\images\execute_automation_32.png
+		Execute qTest Test Runs\images\execute_automation_48.png = Execute qTest Test Runs\images\execute_automation_48.png
+		Execute qTest Test Runs\images\execute_automation_64.png = Execute qTest Test Runs\images\execute_automation_64.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45535C6A-C451-4893-8081-970C9B322AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45535C6A-C451-4893-8081-970C9B322AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45535C6A-C451-4893-8081-970C9B322AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45535C6A-C451-4893-8081-970C9B322AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09548C31-4CFC-4921-B4A7-1DDAE99C4AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09548C31-4CFC-4921-B4A7-1DDAE99C4AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09548C31-4CFC-4921-B4A7-1DDAE99C4AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09548C31-4CFC-4921-B4A7-1DDAE99C4AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80EE1E35-97D5-4B3D-BCDD-2B2264F7FDBA} = {CBE92256-E39B-47A9-B845-C3610CCE6171}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,64 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: normal;
+}
+
+.tableHeader
+{ 
+    font-size: 12px;
+    font-weight: bold;
+    color:white;  
+    vertical-align: middle;
+    background-color: #0066CC;
+}
+
+.tableCell
+{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px; 
+    font-style: normal; 
+    vertical-align: middle;
+}
+
+.centerText
+{
+    text-align: center;
+}
+
+.tableAltRow
+{
+    background-color: #99CCFF;
+}
+
+.labMachineCol
+{
+    width: 100px;
+}
+
+.testScriptNameCol
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 165px;
+}
+
+.testScriptPathCol
+{
+    width: 590px;
+}
+
+.qTestSearchTable
+{
+    width: 1000px;
+}
+
+.qTestSearchProject
+{
+    width: 200px;
+}
+
+.rightText
+{
+    text-align: right;
+}
+
